@@ -22,6 +22,7 @@ p {
 }
 nav {
     margin: 5px;
+    padding: 5px;
 }
 nav a {
     font-family: 'Amatic SC', cursive;
