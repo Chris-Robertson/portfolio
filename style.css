@@ -21,14 +21,15 @@ p {
     margin-bottom: 1rem;
 }
 nav {
-    margin: 5px;
-    padding: 5px;
+    margin: 2px auto;
 }
 nav a {
     font-family: 'Fredericka the Great', cursive;
     font-size: 3rem;
     border: 1px solid black;
     text-decoration: none;
+    margin: 5px;
+    padding: 2px;
 }
 nav a:link {
     color: black;
