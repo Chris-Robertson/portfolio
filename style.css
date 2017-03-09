@@ -10,13 +10,13 @@ html {
 }
 h1 {
     font-family: 'Fredericka the Great', cursive;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: normal;
     text-align: center;
 }
 p {
     font-family: 'Amatic SC', cursive;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-top: 0.25rem;
     margin-bottom: 1rem;
 }
