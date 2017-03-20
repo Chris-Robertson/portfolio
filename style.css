@@ -1,5 +1,77 @@
 html {
     font-size: 16px;
+    background-color: #082567;
+    text-align: justify;
+}
+div {
+    box-sizing: border-box;
+}
+.name_splash {
+    /* max-width: 1366px; */
+    max-width: 100%;
+    min-width: 320px;
+    /* max-height: 768px; */
+    max-height: 100%;
+    margin: 0 auto;
+}
+.inner_content {
+    max-width: 600px;
+    min-width: 320px;
+    margin: auto;
+    /* background-color: black; */
+}
+.jump_buttons {
+    max-width: 600px;
+
+    margin: auto;
+}
+.about {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #C71585;
+    margin: 10px;
+}
+.button_center {
+    max-width: 100%;
+    margin: auto;
+    /* position: relative; */
+    display: block;
+}
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    perspective: 1px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.group1 {
+    height: 1000px;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.background {
+    transform: translateZ(-1px);
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: #FF8A8A;
+    padding-top: 100px;
+
+}
+
+.foreground {
+    position: absolute;
+    top: 500px;
+    height: 100%;
+    width: 100%; 
+    background: url("images/parallax_upwards_point_01.png");
+    opacity: 0.8;
+    padding-top: 100px;
+
 }
 .main {
     margin: 0 auto;
@@ -13,12 +85,6 @@ h1 {
     font-size: 5rem;
     font-weight: normal;
     text-align: center;
-}
-p {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 2rem;
-    margin-top: 0.25rem;
-    margin-bottom: 1rem;
 }
 nav {
     margin: 2px auto;
