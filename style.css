@@ -59,6 +59,8 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    top: 2000px;
 }
 .about {
     display: flex;
@@ -78,6 +80,8 @@ p {
     align-items: center;
     justify-content: space-around;
     flex: 1 200px;
+    position: relative;
+    top: 2000px;
 
 }
 .contact_icon {
@@ -91,7 +95,6 @@ p {
     margin: auto;
     max-width: 150px;
     min-width: 50px;
-    
 }
 .container {
     position: fixed;
@@ -103,12 +106,12 @@ p {
     overflow-x: hidden;
     overflow-y: scroll;
 }
-#parallax_group1 {
+#parallax_group_1 {
     height: 1000px;
     position: relative;
     transform-style: preserve-3d;
-    display: flex;
-    align-items: center;
+    /* display: flex; */
+    /* align-items: center; */
 }
 .parallax_background {
     transform: translateZ(-1px) scale(2);
@@ -134,4 +137,16 @@ p {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+.sun {
+    transform: translateZ(-2px) scale(4);
+    /* height: 100%; */
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+}
+.sun img {
+    max-width: 100%;
+    opacity: 0.8;
 }
