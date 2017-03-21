@@ -1,31 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./style.css" media="all">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./style.css" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <title>Chris Robertson · Developer Portfolio</title>
+  <title>Chris Robertson · Developer Portfolio</title>
 </head>
 <body>
-    <div class="container">
-        <div>
-            <img class="name_splash" src="./images/name_splash_blue_edge_03.png" alt="Chris Robertson">
-        </div> 
-        <div class="inner_content">
-            <div class="jump_buttons">
-                <img src="./images/jump_buttons.png" alt="Jump Buttons">
-            </div>
-            <div class="about">
-                <img class="button_center" src="./images/about_button.png" alt="About Button">
-                <p>I am an aspiring software developer currently studying at a coding bootcamp. I have moved into the industry a little bit later in life and I bring with me a wealth of worldly experience and a life-long addiction to learning. This gives me the skills to communicate and relate with people across backgrounds, positions and frames of reference.</p>  
-                
-                <p>I have found immense enjoyment and satisfaction in mucking around with programming since I taught myself GW-BASIC on the family Amstrad PC-20. I have used this penchant for problem-solving to be successful in many roles, but have realised that it was all brewing up to culminate in a career in software.</p>
-                
-                <p>I'm excited by the prospect of using my passion for back-end technologies and programming languages to solve meaningful problems that impact people all over the world.
-                </p>
-            </div>
-        </div>
+  <div class="container">
+    <div>
+      <img class="name_splash" src="./images/name_splash_blue_edge_03.png" alt="Chris Robertson">
+    </div> 
+    <div id="parallax_group_1">
+      <div class="jump_buttons_container parallax_background">
+        <div class="jump_button"><img src="./images/jump_buttons/about_button.png" alt="Jump Buttons"></div>
+        <div class="jump_button"><img src="./images/jump_buttons/projects_button.png" alt="Jump Buttons"></div>
+        <div class="jump_button"><img src="./images/jump_buttons/contact_button.png" alt="Jump Buttons"></div>
+      </div>
+      <div class="parallax_foreground"><img src="./images/parallax_upwards_point_02.png" alt="Amazing Parallax Effect!"></div>
+      <div class="about parallax_background">
+        <img class="button_center" src="./images/about_button.png" alt="About Button">
+        <p>I am an aspiring software developer currently studying at a coding bootcamp. I have moved into the industry a little bit later in life and I bring with me a wealth of worldly experience and a life-long addiction to learning. This gives me the skills to communicate and relate with people across backgrounds, positions and frames of reference.</p>  
+        
+        <p>I have found immense enjoyment and satisfaction in mucking around with programming since I taught myself GW-BASIC on the family Amstrad PC-20. I have used this penchant for problem-solving to be successful in many roles, but have realised that it was all brewing up to culminate in a career in software.</p>
+        
+        <p>I'm excited by the prospect of using my passion for back-end technologies and programming languages to solve meaningful problems that impact people all over the world.
+        </p>
+    </div>
+  </div>
+      <div class="projects">
+        <img class="button_center" src="./images/projects_button.png" alt="Projects Button">
+        <h2 class="project_heading">ZARTA</h2>
+        <img class="project_img" src="./images/gifs/zarta.gif" alt="ZARTA Terminal Recording">
+        <p>ZARTA's A Ruy Text Adventure.</p>
+        <p>I built this as one of my first projects during my coding bootcamp. It served as a strong beginner study into Object-Oriented Programming, focussing on designing and implementing strong classes.</p>
+        <h2 class="project_heading">WATWA</h2>
+        <img class="project_img" src="./images/watwa_screen_01.png" alt="WATWA Terminal Recording">
+        <p>WATWA's A Terminal Weather App</p>
+        <p>A simple terminal app that displays a 10 day weather forcast for the Melbourne area. The goal of this project was to familiarise myself with using other gems in my work. This was also the first gem that I published to RubyGems.org.</p>
+        <img class="button_center" src="./images/other_projects.png" alt="Projects Button">
+      </div>
+      <div class="contact">
+        <img class="button_center" src="./images/contacts_button.png" alt="Projects Button">
+        <div class="contact_icon"><img src="./images/contact/github-original-2.png" alt=""></div>
+        <div class="contact_icon"><img src="./images/contact/linkedin.png" alt=""></div>
+        <div class="contact_icon"><img src="./images/contact/twitter.png" alt=""></div>
+        <div class="contact_icon"><img src="./images/contact/wordpress.png" alt=""></div>
+        <div class="contact_icon"><img src="./images/contact/codepen.png" alt=""></div>
+        <div class="contact_icon"><img src="./images/contact/instagram.png" alt=""></div>
+      </div>
     </div>
 </body>
 </html>
