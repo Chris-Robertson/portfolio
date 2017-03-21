@@ -14,3 +14,6 @@ alt="Kavinsky - Nightcall" width="240" height="180" border="10" /></a>
 
 I collected inspirational images into a board on [niice.co](https://niice.co/m/4dbeb203f69cb87f0b3b8c04d6e8d6d7)
 
+<img src="https://github.com/Chris-Robertson/portfolio/blob/master/images/readme/niice_inspiration_board.png" alt="niice.co inspiration board" width="400" />
+
+<img src="https://github.com/Chris-Robertson/portfolio/blob/master/images/gifs/responsive_design_01.gif" alt="Responsive design" width="400" />
