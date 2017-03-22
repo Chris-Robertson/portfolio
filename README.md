@@ -18,4 +18,12 @@ I collected inspirational images into a board on [niice.co](https://niice.co/m/4
 
 <img src="https://github.com/Chris-Robertson/portfolio/blob/master/images/readme/niice_inspiration_board.png" alt="niice.co inspiration board" width="400" />
 
+<img src="https://github.com/Chris-Robertson/portfolio/blob/master/images/readme/portfolio_trello.png" alt="niice.co inspiration board" width="400" />
+
 <img src="https://github.com/Chris-Robertson/portfolio/blob/master/images/gifs/responsive_design_01.gif" alt="Responsive design" width="400" />
+
+<img src="https://github.com/Chris-Robertson/portfolio/blob/master/images/gifs/parallax_testing_01.gif" alt="Parallax Testing" width="400" />
+
+<img src="https://github.com/Chris-Robertson/portfolio/blob/master/images/gifs/jump_links_broken_01.gif" alt="Broken internal page links" width="400" />
+
+<img src="https://github.com/Chris-Robertson/portfolio/blob/master/images/gifs/ira_glass_quote_02.gif" alt="Ira Glass Quote" width="400" />
