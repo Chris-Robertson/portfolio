@@ -1,6 +1,8 @@
 # Chris Robertson
 ## Developer Portfolio Website
 
+https://chris-robertson.github.io/portfolio/
+
 This portfolio website was made as our first major project when I was studying at CoderFactory Academy coding bootcamp.
 
 Brief:
