@@ -35,13 +35,15 @@ body {
     margin: auto;
     transform-style: preserve-3d;
 }
-.jump_buttons_container {
+.web_developer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    top: 180px;
 }
-.jump_buttons {
-    max-width: 600px;
+.web_developer img {
+    max-width: 90%;
     margin: auto;
 }
 p {
@@ -164,8 +166,9 @@ p {
 }
 /* setting up parallax */
 #parallax_group_1 {
-    height: 1000px;
     position: relative;
+    top: -300px;
+    height: 100%;
     transform-style: preserve-3d;
 }
 .parallax_background {
@@ -174,7 +177,7 @@ p {
     width: 100%;
 }
 .parallax_foreground {
-    z-index: 1;
+    z-index: 5;
     width: 100%;
     height: 800px;
     overflow: hidden;
