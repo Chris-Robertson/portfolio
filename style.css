@@ -7,6 +7,7 @@ div {
     /* box-sizing: border-box; */
 }
 body {
+    -webkit-text-size-adjust: 100%;
     position: relative;
 }
 
