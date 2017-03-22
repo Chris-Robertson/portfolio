@@ -2,6 +2,7 @@ html {
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     background-color: #082567;
+    color: #C71585;
 }
 div {
     /* box-sizing: border-box; */
@@ -48,7 +49,6 @@ body {
 p {
     text-align: justify;
     font-size: 16px;
-    color: #C71585;
     margin: 10px;
     max-width: 600px;
     min-width: 300px;
@@ -112,6 +112,7 @@ p {
     overflow-x: hidden;
     overflow-y: scroll;
 }
+/* http://blog.carbonfive.com/2015/01/07/vintage-terminal-effect-in-css3/ */
 .scan_lines {
     /* background: url(./images/scan_lines_02.png) repeat; */
     /* z-index: 5; */
@@ -134,10 +135,10 @@ p {
 }
 @keyframes pulse {
     0%   {transform: scale(1.001);  opacity: .14; }
-    8%   {transform: scale(1.000);  opacity: .13; }
+    8%   {transform: scale(1.100);  opacity: .23; }
     15%  {transform: scale(1.004);  opacity: .14; }
-    30%  {transform: scale(1.002);  opacity: .11; }
-    100% {transform: scale(1.000);  opacity: .14; }
+    30%  {transform: scale(1.002);  opacity: .21; }
+    100% {transform: scale(1.010);  opacity: .14; }
 
 }
 #parallax_group_1 {
