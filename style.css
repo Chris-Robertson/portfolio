@@ -75,27 +75,27 @@ p {
     box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.50); 
 }
 .contact {
-    display: flex;
-    flex-direction: row; 
-    flex-wrap: wrap;
     max-width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    flex: 1 200px;
     position: relative;
     top: 500px;
 }
-.contact_icon {
-    max-width: 150px;
-    /* flex-direction: row; */ 
+.icon_container {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-around;
+    /* flex: 3 200px; */
+}
+.contact_icon {
+    /* max-width: 150px; */
+    /* flex-direction: row; */ 
     /* margin: auto; */
 }
-.contact_icon > img {
-    align-items: center;
-    margin: auto;
-    max-width: 150px;
-    min-width: 50px;
+.contact_icon img {
+    margin: 1em;
+    max-width: 100px;
+    /* min-width: 50px; */
 }
 .container {
     position: fixed;
