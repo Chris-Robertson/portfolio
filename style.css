@@ -1,24 +1,30 @@
 html {
-    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     background-color: #082567;
     color: #C71585;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 2px 2px 3px black; 
 }
-div {
-    /* box-sizing: border-box; */
+@media (min-width:1000px) {
+    html {
+        font-size: 1.5em;
+    }
 }
 body {
+    /* fix for iOS text resizing */
     -webkit-text-size-adjust: 100%;
     position: relative;
 }
-
 .name_splash {
-    /* max-width: 1366px; */
     max-width: 100%;
     min-width: 320px;
-    /* max-height: 768px; */
     max-height: 100%;
-    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.name_splash img {
+    max-width: 100%;
 }
 .inner_content {
     display: flex;
@@ -28,14 +34,6 @@ body {
     min-width: 320px;
     margin: auto;
     transform-style: preserve-3d;
-    /* background-color: black; */
-}
-
-/* hide jump buttons on desktop */
-@media (min-width:600px) {
-    .jump_button {
-        display: none;
-    }
 }
 .jump_buttons_container {
     display: flex;
@@ -48,19 +46,14 @@ body {
 }
 p {
     text-align: justify;
-    font-size: 16px;
     margin: 10px;
     max-width: 600px;
     min-width: 300px;
-    /* offset-x | offset-y | blur-radius | color */
-    text-shadow: 1px 1px 2px black; 
 }
 .button_center {
     max-width: 100%;
     margin: auto;
     align-items: center;
-    /* position: relative; */
-    /* display: block; */
 }
 .projects {
     display: flex;
@@ -69,20 +62,48 @@ p {
     position: relative;
     top: 100px;
 }
+@media (min-width:700px) {
+    .projects {
+        top: 500px;
+    }
+}
+@media (min-width:1000px) {
+    .projects {
+        top: 500px;
+    }
+}
 .about {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+@media (min-width:700px) {
+    .about {
+        top: 400px;
+    }
 }
 .project_img {
     max-width: 90%; 
-    /* margin: 0px 10px 0px 10px; */
     box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.50); 
 }
 .contact {
     max-width: 100%;
     position: relative;
     top: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (min-width:700px) {
+    .contact {
+        top: 1520px;
+    }
+}
+@media (min-width:700px) {
+    .contact {
+        top: 2020px;
+    }
 }
 .icon_container {
     display: flex;
@@ -90,17 +111,21 @@ p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    /* flex: 3 200px; */
+    margin: auto;
 }
-.contact_icon {
-    /* max-width: 150px; */
-    /* flex-direction: row; */ 
-    /* margin: auto; */
+@media (min-width:700px) {
+    .icon_container {
+        max-width: 50%;
+    }
+}
+@media (min-width:1400px) {
+    .icon_container {
+        max-width: 40%;
+    }
 }
 .contact_icon img {
     margin: 1em;
     max-width: 100px;
-    /* min-width: 50px; */
 }
 .container {
     position: fixed;
@@ -114,16 +139,12 @@ p {
 }
 /* http://blog.carbonfive.com/2015/01/07/vintage-terminal-effect-in-css3/ */
 .scan_lines {
-    /* background: url(./images/scan_lines_02.png) repeat; */
-    /* z-index: 5; */
     width: 100%;
     height: 100%;
-    /* margin: 0; */
     position: fixed;
     top: 0;
     left: 0;
     pointer-events: none;
-    /* #faux-terminal:before { */
     z-index: 4010;
     background: linear-gradient(#444 50%, #000 50%);
     background-size: 100% 4px;
@@ -141,29 +162,23 @@ p {
     100% {transform: scale(1.010);  opacity: .14; }
 
 }
+/* setting up parallax */
 #parallax_group_1 {
     height: 1000px;
     position: relative;
     transform-style: preserve-3d;
-    /* display: flex; */
-    /* align-items: center; */
 }
 .parallax_background {
     transform: translateZ(-1px) scale(2);
     height: auto;
     width: 100%;
-    /* position: absolute; */
-    /* top: 0; */
-    /* padding-top: 100px; */
 }
 .parallax_foreground {
-    top: 50px;
     z-index: 1;
     width: 100%;
     height: 800px;
     overflow: hidden;
     position: relative;
-    /* padding-top: 100px; */
 }
 .parallax_foreground img {
     /* max-width: 100%; */
@@ -172,31 +187,79 @@ p {
     left: 50%;
     transform: translateX(-50%);
 }
+@media (min-width:700px) {
+    .parallax_foreground {
+        transform: scale(1.5)
+    }
+}
+@media (min-width:1000px) {
+    .parallax_foreground {
+        transform: scale(1.75)
+    }
+}
+@media (min-width:1400px) {
+    .parallax_foreground {
+        transform: scale(2)
+    }
+}
 .one {
     top: 100px;
+}
+@media (min-width:700px) {
+    .one {
+        top: 350px;
+    }
+}
+@media (min-width:1000px) {
+    .one {
+        top: 550px;
+    }
+}
+@media (min-width:1400px) {
+    .one {
+        top: 250px;
+    }
 }
 .two {
     top: -100px;
 }
+@media (min-width:700px) {
+    .two {
+        top: 0px;
+    }
+}
 .three {
     top: 600px;
 }
+@media (min-width:700px) {
+    .three {
+        top: 1460px;
+    }
+}
+@media (min-width:1000px) {
+    .three {
+        top: 1600px;
+    }
+}
 .sun {
     transform: translateZ(-1.5px) scale(3.5);
-    /* height: 100%; */
     position: relative;
     top: -280px;
-    /* left: 50%; */
-    /* transform: translateX(-50%); */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+@media (min-width: 700px) {
+    .sun {
+        top: 500px;
+    }
+}
+@media (min-width: 1000px) {
+    .sun {
+        top: 900px;
+    }
 }
 .sun img {
     max-width: 100%;
     opacity: 0.5;
-}
-
-.lambo {
-
-}
-.lambo img {
-    max-width: 100%;
 }
